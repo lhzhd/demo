@@ -1,0 +1,30 @@
+模型评估报告
+==================================================
+⚙️ 使用分类阈值：0.6490
+
+准确率 (Accuracy): 0.7381
+
+宏平均指标 (Macro-average):
+  精确率 (Precision): 0.7370
+  召回率 (Recall): 0.7222
+  F1分数 (F1 Score): 0.7255
+
+加权平均指标 (Weighted-average):
+  精确率 (Precision): 0.7376
+  召回率 (Recall): 0.7381
+  F1分数 (F1 Score): 0.7339
+
+分类报告 (Classification Report):
+              precision    recall  f1-score   support
+
+      表虚 (0)     0.7407    0.8333    0.7843        24
+      表实 (1)     0.7333    0.6111    0.6667        18
+
+    accuracy                         0.7381        42
+   macro avg     0.7370    0.7222    0.7255        42
+weighted avg     0.7376    0.7381    0.7339        42
+
+
+混淆矩阵 (Confusion Matrix):
+20 4
+7 11
